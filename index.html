@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dystopia - P.A - Físico</title>
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    
+
+</head>
+<body>
+
+    <header>
+        <h1 class="tittlesite"> <span>-</span> Dystopia <span>-</span></h1>
+    </header>
+
+    <article>
+        <div class="systemarea">
+            <div class="heightarea">
+                <div class="heigthtext">Digite a sua altura:</div>
+                <div class="apenas"><p>Números e sem vírgula/ponto - Exemplo: 1,78 = 1,78</p></div>
+                <div class="subheightarea">
+                    <input type="text" class="heigthvalue"> <p class="valuetext">Centímetros</p>
+                </div>
+            </div>
+
+            <div class="weightarea">
+                <div class="weighttext">Digite o seu peso:</div>
+                <div class="apenas"><p>Ponto invês de vírgula - Exemplo: 55.4</p></div>
+                <div class="subweightarea">
+                    <input type="text" class="weightvalue"> <p class="valuetext">Kg</p>
+                </div>
+            </div>
+
+            <div class="trainarea">
+                <div class="traintext">Quantidade de dias de treinos:</div>
+                <div class="subtrainarea">
+                    <input type="text" class="trainvalue"> <p class="valuetext">Dias</p>
+                </div>
+            </div>
+
+            <div class="racearea">
+                <div class="racetext">Raça/Condição:</div>
+                <div class="racebox">
+                    <input type="radio" class="Nynfes" value="Nynfes" name="race" onclick="catchValue(this)">
+                    <p>Nynfes - +7%</p>
+                </div>
+                <div class="racebox">
+                    <input type="radio" class="Sirenes" value="Sirenes" name="race" onclick="catchValue(this)">
+                    <p>Sirenes - +7.5%</p>
+                </div>
+                <div class="racebox">
+                    <input type="radio" class="Youmanity" value="Youmanity"  name="race" onclick="catchValue(this)">
+                    <p>Youmanity - +8%</p>
+                </div>
+                <div class="racebox">
+                    <input type="radio" class="Halfentry" value="Halfentry"  name="race" onclick="catchValue(this)">
+                    <p>Halfentry - +8.5%</p>
+                </div>
+                <div class="racebox">
+                    <input type="radio" class="Vulcanossauros" value="Vulcanossauros" name="race" onclick="catchValue(this)">
+                    <p>Vulcanossauros - +12%</p>
+                </div>
+                <div class="racebox">
+                    <input type="radio" class="Mestiços" value="Mestiços"  name="race" onclick="catchValue(this)">
+                    <p>Mestiços - +8%</p>
+                </div>
+                <div class="racebox">
+                    <input type="radio" class="YoumanityB" value="YoumanityB"  name="race" onclick="catchValue(this)">
+                    <p>Youmanity - Buddhimatta - +10%</p>
+                </div>
+                <div class="racebox">
+                    <input type="radio" class="Tengoku" value="Tengoku"  name="race" onclick="catchValue(this)">
+                    <p>Tengoku - +10%</p>
+                </div>
+            </div>
+
+            <div class="button">
+                <div>Calcular!</div>
+            </div>
+
+            <div class="resultarea">
+                <div class="paarea">
+                    <p class="patext">Seu P.A é de: <span class="paresult">0</span></p>
+                    <p class="kgtext">Seu KG extra é de: <span class="kgresult">0</span></p>
+                    <p class="fctext">Seu FB(Força de cada braço) é de: <span class="fbresult">0</span> Kg</p>
+                    <p class="fptext">Seu FB(Força de cada perna) é de: <span class="fpresult">0</span> Kg</p>
+                    <p class="fctext">Seu FC(Força do corpo) é de: <span class="fcresult">0</span> Kg</p>
+
+                </div>
+
+            </div>
+
+        </div>
+    </article>
+
+    <footer>
+        <h2 class="autorname">Created By: Igor Tamuz</h2>
+        <div class="iconsarea">
+            <div class="githubarea">
+                <a href="#"></a>
+            </div>
+            <div class="facebookarea">
+                <a href="#"></a>
+            </div>
+            <div class="gmailarea">
+                <a href="#"></a>
+                <a href="#"><p></p></a>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,137 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(https://wallpaperaccess.com/full/2881005.jpg);
+    color: white;
+}
+
+/*header*/
+
+header{
+    background-image: url(https://images.unsplash.com/photo-1444080748397-f442aa95c3e5?ixlib=rb-1.2.1&w=1080&fit=max&q=80&fm=jpg&crop=entropy&cs=tinysrgb);
+    height: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
+}
+
+.tittlesite{
+    font-size: 65px;
+}
+
+.tittlesite > span {
+    color: #FFF186;
+}
+
+/*article*/
+
+article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.systemarea{
+    background-color: rgba(77, 77, 77, 0.745);
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
+    padding: 10px;
+}
+
+.heightarea, .weightarea, .racearea, .trainarea{
+    padding-top: 10px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.subheightarea, .subweightarea, .subtrainarea{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.heigthvalue, .weightvalue, .trainvalue{
+   margin-top: 5px;
+   border-radius: 15px;
+   border-color: none;
+   resize: none;
+   outline: none;
+   border-color: transparent;
+   padding-left: auto;
+   padding-right: auto;
+   text-align: center;
+}
+
+.valuetext{
+    margin-left: 5px;
+}
+
+
+.apenas{
+    color: rgb(207, 166, 232);
+    font-style: italic;
+    font-size: 13px;
+}
+
+.resultarea{
+    margin-top: 20px;
+    
+}
+
+/*races*/
+
+.racetext{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.racebox{
+    display: flex;
+    padding-top: 10px;
+}
+
+.button{
+    margin-top: 30px;
+    background-color: rgba(15, 15, 15, 0.644);
+    border-radius: 15px;
+    width: 100px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button:hover{
+    background-color: rgba(255, 255, 255, 0.624);
+    color: rgba(15, 15, 15, 0.644);;
+}
+
+/*footer*/
+
+footer{
+    background-image: url(https://i.pinimg.com/originals/02/f2/64/02f2649eaa7743a8e0a117c3e0a386ee.jpg);
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+    object-fit: cover;
+}
