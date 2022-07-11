@@ -19,9 +19,10 @@
 
     <article>
         <div class="systemarea">
+            <div class="tittletext">Informações básicas</div>
             <div class="heightarea">
                 <div class="heigthtext">Digite a sua altura:</div>
-                <div class="apenas"><p>Números e sem vírgula/ponto - Exemplo: 1,78 = 1,78</p></div>
+                <div class="apenas"><p>Números e sem vírgula/ponto - Exemplo: 1,78 = 178</p></div>
                 <div class="subheightarea">
                     <input type="text" class="heigthvalue"> <p class="valuetext">Centímetros</p>
                 </div>
@@ -29,7 +30,8 @@
 
             <div class="weightarea">
                 <div class="weighttext">Digite o seu peso:</div>
-                <div class="apenas"><p>Ponto invês de vírgula - Exemplo: 55.4</p></div>
+                <div class="apenas"><p>Exemplo: 55.2 ou 70,3</p></div>
+                <div class="apenas"><p></p></div>
                 <div class="subweightarea">
                     <input type="text" class="weightvalue"> <p class="valuetext">Kg</p>
                 </div>
@@ -37,6 +39,7 @@
 
             <div class="trainarea">
                 <div class="traintext">Quantidade de dias de treinos:</div>
+                <div class="apenas"><p>Se não possuir, basta por "0"</p></div>
                 <div class="subtrainarea">
                     <input type="text" class="trainvalue"> <p class="valuetext">Dias</p>
                 </div>
@@ -44,13 +47,14 @@
 
             <div class="trainarea">
                 <div class="traintext">Quantidade de Kg de Bônus:</div>
+                <div class="apenas"><p>Se não possuir, basta por "0"</p></div>
                 <div class="subtrainarea">
                     <input type="text" class="bonusvalue"> <p class="valuetext">Kg</p>
                 </div>
             </div>
 
-            <div class="racearea">
-                <div class="racetext">Raça/Condição:</div>
+            <div class="racearea ">
+                <div class="racetext tittletext">Raça/Condição:</div>
                 <div class="racebox">
                     <input type="radio" class="Nynfes" value="Nynfes" name="race" onclick="catchValue(this)">
                     <p>Nynfes - +7%</p>
@@ -86,10 +90,10 @@
             </div>
 
             <div class="racearea">
-                <div class="racetext">Nível de Vishuddha:</div>
+                <div class="racetext tittletext">Nível de Vishuddha:</div>
                 <div class="racebox">
                     <input type="radio" value="na" name="Vishuddha" onclick="catchValueChi(this)">
-                    <p>Vishuddha: Não aprendido</p>
+                    <p>Vishuddha: Não possui/aprendeu</p>
                 </div>
                 <div class="racebox">
                     <input type="radio"  value="Corporal" name="Vishuddha" onclick="catchValueChi(this)">

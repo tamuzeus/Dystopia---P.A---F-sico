@@ -2,7 +2,7 @@
 let heigthValue = document.querySelector(".heigthvalue")
 let weightValue = document.querySelector(".weightvalue")
 let trainValue = document.querySelector(".trainvalue")
-let bonusvalue = document.querySelector(".bonusvalue")
+let bonusValue = document.querySelector(".bonusvalue")
 let button = document.querySelector(".button")
 
 let paResult = document.querySelector(".paresult")
@@ -65,14 +65,18 @@ function catchInfos (){
     let kgextra = trainint * 1.5
     kgResult.innerHTML = kgextra
 
+    /*Bonus kg*/
+    let bonusint = parseInt(bonusValue.value)
+    console.log(bonusint)
+
     /*fb*/
-    let fbbruto = ((soma*2)+kgextra)
+    let fbbruto = ((soma*2)+kgextra+bonusint)
     let fbbonus = fbbruto+(fbbruto*bonus)+(fbbruto*bonuschi)
     let fbfinal = parseInt(fbbonus)
     fbResult.innerHTML = fbfinal
 
     /*fp*/
-    let fpbruto = ((soma*7)+kgextra)
+    let fpbruto = ((soma*7)+kgextra+bonusint)
     let fpbonus = fpbruto+(fpbruto*bonus)+(fpbruto*bonuschi)
     let fpfinal = parseInt(fpbonus)
     fpResult.innerHTML = fpfinal
