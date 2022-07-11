@@ -40,7 +40,7 @@ article{
 }
 
 .systemarea{
-    background-color: rgba(77, 77, 77, 0.745);
+    background-color: rgba(33, 33, 33, 0.819);
     border-radius: 10px;
     width: 100%;
     margin-top: 10px;
@@ -65,7 +65,7 @@ article{
     flex-direction: row;
 }
 
-.heigthvalue, .weightvalue, .trainvalue{
+.heigthvalue, .weightvalue, .trainvalue, .bonusvalue{
    margin-top: 5px;
    border-radius: 15px;
    border-color: none;
